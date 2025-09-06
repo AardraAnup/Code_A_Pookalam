@@ -1,22 +1,7 @@
 <html lang="en">
 <head>
   <title>Pookalam Design</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background: #f6f6f6ff;
-    }
-    svg {
-      width: 400px;
-      height: 400px;
-    }
-  </style>
-</head>
-<body>
-  <svg viewBox="0 0 400 400">
+ <svg viewBox="0 0 400 400">
     <!-- Outer circle -->
     <circle cx="200" cy="200" r="180" fill="orange " />
 
@@ -38,6 +23,22 @@
       <ellipse cx="200" cy="60" rx="20" ry="50" />
       <ellipse cx="200" cy="60" rx="20" ry="50" />
     </g>
+
+    <!-- Center circle -->
+    <circle cx="200" cy="200" r="30" fill="white" />
+  </svg>
+</head>
+<body>
+  <svg viewBox="0 0 400 400">
+    <!-- Outer circle -->
+    <circle cx="200" cy="200" r="180" fill="orange " />
+
+    <!-- Middle circle -->
+    <circle cx="200" cy="200" r="130" fill="yellow" />
+
+    <!-- Inner circle -->
+    <circle cx="200" cy="200" r="80" fill="red" />
+
 
     <!-- Center circle -->
     <circle cx="200" cy="200" r="30" fill="white" />
